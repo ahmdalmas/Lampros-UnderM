@@ -88,6 +88,17 @@ html {
 2. COMMONS FOR PAGE DESIGN
 --------------------------------- */
 
+
+.logo{
+	position: absolute;
+    z-index: 9;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 400px;
+	height: 400px;
+}
+
 .center-text{ text-align: center; } 
 
 .display-table{ display: grid; height: 100%; width: 100%; padding: 150px 0;z-index: 2; }
